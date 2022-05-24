@@ -50,6 +50,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.4"
+  drag_to_expand:
+    dependency: "direct dev"
+    description:
+      name: drag_to_expand
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.1"
+  draggable_bottom_sheet:
+    dependency: "direct dev"
+    description:
+      name: draggable_bottom_sheet
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.2"
   fake_async:
     dependency: transitive
     description:
@@ -62,25 +76,11 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_lints:
-    dependency: "direct dev"
-    description:
-      name: flutter_lints
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.4"
   flutter_test:
     dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
-  lints:
-    dependency: transitive
-    description:
-      name: lints
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.1"
   matcher:
     dependency: transitive
     description:
