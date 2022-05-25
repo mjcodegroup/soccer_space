@@ -46,30 +46,37 @@ Widget createDrawerHeader() {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              Container(
-                  decoration: BoxDecoration(
-                      color: Color.fromRGBO(255, 255, 255, 0.2),
-                      borderRadius: BorderRadius.all(Radius.circular(5))),
-                  width: 100,
-                  height: 100,
-                  child: Image(
-                    image: AssetImage('assets/ballon.jpg'),
-                    fit: BoxFit.cover,
-                  )),
+              // Container(
+              //     decoration: BoxDecoration(
+              //         color: Color.fromRGBO(255, 255, 255, 0.2),
+              //         borderRadius: BorderRadius.all(Radius.circular(5))),
+              //     width: 100,
+              //     height: 100,
+              //     child: Image(
+              //       image: AssetImage('assets/ballon.jpg'),
+              //       fit: BoxFit.cover,
+              //     )),
               Container(
                   width: 150,
                   height: 50,
-                  // color: Color.fromRGBO(255, 255, 255, 0.2),
                   child: Center(
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
-                          "A.A.F",
-                          style: TextStyle(color: Colors.white),
+                          "S.S",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                              fontStyle: FontStyle.italic),
                         ),
-                        Text("All About Foot",
-                            style: TextStyle(color: Colors.white))
+                        Text(
+                          "Soccer Space",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                              fontStyle: FontStyle.italic),
+                        ),
                       ],
                     ),
                   ))
