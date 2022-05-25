@@ -48,6 +48,14 @@ class _MyHomePageState extends State<MyHomePage> {
     CardImageItem("Football team", 'assets/psgFlag.jpg'),
   ];
 
+  final List<CardImageItem> popularLeagueCards = [
+    CardImageItem("Competitions", 'assets/ligueDesChampionLogo.jpg'),
+    CardImageItem("Competitions", 'assets/laligaLogo.jpeg'),
+    CardImageItem("Competitions", 'assets/bundesLigaLogo.jpg'),
+    CardImageItem("Competitions", 'assets/serieALogo.jpg'),
+    CardImageItem("Competitions", 'assets/ligue1Logo.png'),
+  ];
+
   final List<CardImageItem> playersCards = [
     CardImageItem("Player", 'assets/joueurSurTerrain1.jpg'),
     CardImageItem("Player", 'assets/girlPlayerWithBall.jpg'),
@@ -79,6 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: ListView(
           children: [
+            PopularClubs(popularLeagueCards),
             PopularClubs(popularClubsCards),
             PopularClubs(popularCards),
             Players(playersCards),
