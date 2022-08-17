@@ -6,6 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 
 class NetworkService {
+  ///Voltando
   static NetworkService _instance = new NetworkService.internal();
   NetworkService.internal();
 
@@ -27,7 +28,6 @@ class NetworkService {
     return http.Response('Ocorreu um erro!', 500);
   }
 
-  ///FUNÇÃO DIFERENTE PARA FAZER O REQUEST NO AWS
   Future<http.Response> post(String url, body) async {
     if (await isConnected()) {
       try {
